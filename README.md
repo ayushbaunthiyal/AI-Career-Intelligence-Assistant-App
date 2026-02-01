@@ -6,6 +6,7 @@ A RAG-based conversational AI assistant that analyzes resumes against job descri
 
 - [Quick Start](#-quick-start)
 - [Features](#-features)
+- [Screenshots](#-screenshots)
 - [Architecture Overview](#-architecture-overview)
 - [RAG/LLM Approach & Decisions](#-ragllm-approach--decisions)
 - [Key Technical Decisions](#-key-technical-decisions)
@@ -93,6 +94,36 @@ uv run pytest --cov=app --cov-report=html
 - **Interview Preparation**: "Help me prepare for the interview"
 - **Multi-Job Comparison**: "Which role am I best suited for?"
 - **Conversational Memory**: Multi-turn conversations with context awareness
+
+---
+
+## 📸 Screenshots
+
+### Document Upload Interface
+The upload section supports both file uploads (PDF/DOCX) and text paste for job postings.
+
+![Upload Interface](docs/screenshots/upload_interface.png)
+*Upload your resume and multiple job postings via file upload or text paste*
+
+### Document Management Sidebar
+The sidebar shows all uploaded documents with management options and statistics.
+
+![Sidebar](docs/screenshots/sidebar_documents.png)
+*View uploaded documents, manage your library, and see statistics*
+
+### Career Fit Analysis
+The AI provides detailed analysis with skill match percentages and fit recommendations.
+
+![Analysis Results](docs/screenshots/analysis_results.png)
+*Get detailed analysis with skill match percentages and fit recommendations*
+
+### Chat Interface
+Interactive chat interface with streaming responses and source citations.
+
+![Chat Interface](docs/screenshots/chat_interface.png)
+*Ask questions and get intelligent responses with source citations*
+
+> **Note**: Screenshot files should be placed in `docs/screenshots/` directory. The images above are placeholders - replace them with actual screenshots of your running application.
 
 ---
 
@@ -365,7 +396,9 @@ app/
 
 ## 🤖 AI Tools in Development
 
-### How I Used AI Assistants
+### g. How I Used AI Tools in Development
+
+**Cursor AI (Claude)** was used for:
 
 **Cursor AI (Claude)** was used for:
 
